@@ -1,0 +1,7 @@
+.rooms-container{
+    @include spacebetween-flex;
+    background-color: $white-color;
+    @extend .p-30;
+    // flex-wrap: wrap;
+    
+}

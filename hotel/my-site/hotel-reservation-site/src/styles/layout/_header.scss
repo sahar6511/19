@@ -1,0 +1,23 @@
+.header{
+    @extend .p-30;
+    @include spacebetween-flex;
+    background-color: $darkblue-color;
+    .nav-links{
+        @include right-flex;
+       
+        gap:15px;
+        max-height: 100px;
+        a{
+            color:$white-color
+        }
+    }
+    .logo{
+        @include spacebetween-flex;
+        h1{
+            color: $orange-color;
+        }
+        img{
+            height: 50px;
+        }
+    }
+}
